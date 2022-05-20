@@ -19,3 +19,23 @@
     font-size: 1.5rem;
     letter-spacing: 6px;
 }
+
+@media only screen and (max-width: 600px) {
+    .description_container h1 {
+        font-size: 1.4rem;
+        padding: 5px 15px;
+        margin-top: 35px;
+        
+    }
+
+    .description_container span {
+        font-size: 0.8rem;
+    }
+
+    .description_container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+}

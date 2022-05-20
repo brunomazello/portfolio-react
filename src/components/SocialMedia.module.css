@@ -2,3 +2,9 @@
     list-style-type: none;
     color: white;
 }
+
+@media only screen and (max-width: 600px) {
+    .socialmedia_container ul {
+        display: none;
+    }
+}

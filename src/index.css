@@ -8,8 +8,8 @@ body {
   background-image: url(./images/background.jpeg);
   background-repeat: no-repeat;
   font-family: 'Montserrat', sans-serif;
-  background-size: 100%;
-
+  background-attachment: fixed;
+  background-color: black;
 }
 
 code {
